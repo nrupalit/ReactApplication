@@ -1,0 +1,127 @@
+.projectscope__wrapper [type="radio"]:not(:checked),
+
+.projectscope__wrapper [type="radio"]:checked {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.projectscope__wrapper [type="radio"]:not(:checked) + span,
+.projectscope__wrapper [type="radio"]:checked + span {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  display: inline-block;
+  height: 15px;
+  line-height: 15px;
+  font-size: 1.5rem;
+  -webkit-transition: .28s ease;
+  transition: .28s ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.projectscope__wrapper [type="radio"] + span:before,
+.projectscope__wrapper [type="radio"] + span:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 4px;
+  width: 7px;
+  height: 7px;
+  z-index: 0;
+  -webkit-transition: .28s ease;
+  transition: .28s ease;
+}
+
+/* Unchecked styles */
+.projectscope__wrapper [type="radio"]:not(:checked) + span:before,
+.projectscope__wrapper [type="radio"]:not(:checked) + span:after,
+.projectscope__wrapper [type="radio"]:checked + span:before,
+.projectscope__wrapper [type="radio"]:checked + span:after,
+.projectscope__wrapper [type="radio"].with-gap:checked + span:before,
+.projectscope__wrapper [type="radio"].with-gap:checked + span:after {
+  border-radius: 50%;
+}
+
+.projectscope__wrapper [type="radio"]:not(:checked) + span:before,
+.projectscope__wrapper [type="radio"]:not(:checked) + span:after {
+  border: 1px solid #78849e  ;
+  background-color: #fff;
+
+}
+
+.projectscope__wrapper [type="radio"]:not(:checked) + span:after {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+/* Checked styles */
+.projectscope__wrapper [type="radio"]:checked + span:before {
+  border: 1px solid transparent;
+}
+
+.projectscope__wrapper [type="radio"]:checked + span:after,
+.projectscope__wrapper [type="radio"].with-gap:checked + span:before,
+.projectscope__wrapper [type="radio"].with-gap:checked + span:after {
+  border: 1px solid #344466;
+}
+
+.projectscope__wrapper [type="radio"]:checked + span:after,
+.projectscope__wrapper [type="radio"].with-gap:checked + span:after {
+  /* background-color: #344466; */
+  border: 1px solid #78849e  ;
+  background-color: #fff;
+}
+
+.projectscope__wrapper [type="radio"]:checked + span:after {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+/* Radio With gap */
+.projectscope__wrapper [type="radio"].with-gap:checked + span:after {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+/* Focused styles */
+.projectscope__wrapper [type="radio"].tabbed:focus + span:before {
+  -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Disabled Radio With gap */
+.projectscope__wrapper [type="radio"].with-gap:disabled:checked + span:before {
+  border: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.projectscope__wrapper [type="radio"].with-gap:disabled:checked + span:after {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.42);
+}
+
+/* Disabled style */
+.projectscope__wrapper [type="radio"]:disabled:not(:checked) + span:before,
+.projectscope__wrapper [type="radio"]:disabled:checked + span:before {
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.42);
+}
+
+.projectscope__wrapper [type="radio"]:disabled + span {
+  color:#344466;
+  pointer-events: none;
+
+}
+
+.projectscope__wrapper [type="radio"]:disabled:not(:checked) + span:before {
+  border-color: rgba(0, 0, 0, 0.42);
+}
+
+.projectscope__wrapper [type="radio"]:disabled:checked + span:after {
+    border: 1px solid #78849e  ;
+    background-color: #fff;
+}

@@ -1,0 +1,61 @@
+.select-list,
+.select-list-main {
+  padding: 10px 0 10px 55px;
+  border-left-style: dotted;
+  border-left-width: 2px;
+  border-color: #dcdcdc;
+}
+
+.select-list-main {
+  padding-left: 15px;
+}
+
+.projectTitle {
+  padding-left: 12px;
+}
+
+.category-li {
+  margin-left: -37px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #344466;
+  margin-top: 10px;
+}
+
+.subcategory-li {
+  margin-left: -60px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #344466;
+}
+
+.projectscope__wrapper ul {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.editSaveNextBtn {
+  margin-left: 25%;
+  margin-bottom: 7%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-textfield {
+  border: none;
+  display: inline;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.048);
+}
+
+.projecttemplate__wrapper select:disabled {
+  background-color: rgb(236, 234, 234);
+  color: gray;
+}
+
+.dropdownbtn {
+  padding-right: 0 !important;
+  width: 300px;
+}

@@ -1,0 +1,44 @@
+.xLarge {
+  width: 165px;
+  height: 50px;
+  font-family: Gibson;
+  font-size: 19px;
+  background: #344466;
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 400;
+}
+
+.xLarge:hover {
+  background: #987c46;
+}
+
+.small {
+  width: 165px;
+  height: 50px;
+  font-family: Gibson;
+  font-size: 19px;
+  background: #344466;
+  color: #fff;
+  border-radius: 12px;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.small:hover {
+  background: #987c46;
+}
+
+.sidebarButton {
+  width: 154.5px;
+  height: 35px;
+  font-family: Gibson;
+  font-size: 16px;
+  background: #344466;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.sidebarButton:hover {
+  background: #987c46;
+}

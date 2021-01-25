@@ -1,0 +1,63 @@
+.sidenavs__main__right{
+    height: 100%;
+    position: fixed;
+    top: 33px;
+    right: 0;
+    position: fixed;
+    border-radius: 0 0 0 0 ;
+    background-color: #ccc;
+    overflow-x: hidden;
+    transition: all 1s;
+    padding: 40px 25px;
+    border-radius: 7px;
+    z-index:600;
+    background-color: #c6cbd4;
+}
+
+/* .sidenavs__right--btn:hover{
+background-color: #987c46;
+border:1px solid #987c46 ;
+} */
+.sidenavs__right--btn{
+    /* border-radius: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #344466;
+    height:35px;
+  width:154.6px; */
+  pointer-events: none;
+    }
+
+.sidenavs__right--link{
+    appearance:none;
+    color:#344466;
+    font-size:17px;
+}
+
+.sidenavs__right--link:hover{
+    color:white;
+}
+
+.rightsidebar  .sidetitle{
+    transform: rotate(270deg);
+    font-size: 15px;
+    letter-spacing: 16px;
+    margin-top: 55vh;
+    color: white;
+   
+    font-family:Roboto;
+    line-height:1;
+    font-weight:normal
+}
+
+@media (min-width: 1850px) {
+    .rightsidebar  .sidetitle{
+        font-size: 18px;
+        letter-spacing: 18px;
+    }
+}
+
+.no__hover:hover{
+    color:#344466;
+    pointer-events: none;
+}

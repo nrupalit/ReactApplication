@@ -1,0 +1,42 @@
+/* projectdetails__wrapper label{
+  font-size:10px;
+}
+
+.projectdetails__wrapper ::placeholder{
+    font-size:8px;
+  } */
+
+
+  .projectdetails__wrapper{
+    margin-top:55px
+  }
+  .projectdetails-btn-wrapper{
+    
+    margin-top:4%;
+    margin-bottom:10%;
+  }
+
+  .button__icons--edit{
+    margin-left: 5;
+
+    justify-content: end;
+    
+    margin-bottom: 5px;
+}
+
+.button__icons--delete{
+    margin-left: 3px;
+
+    justify-content: end;
+    
+    margin-bottom: 5px;
+}
+
+.button__icons--save{
+    margin-left: 5px;
+
+    justify-content: end;
+    
+    margin-bottom: 5px;
+}
+

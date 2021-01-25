@@ -1,0 +1,101 @@
+.manpowergco__scrolltable {
+  width: 100%;
+  text-align: "center";
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+table {
+  width: 100%;
+  text-align: "center";
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+table input:disabled {
+  background-color: white;
+  text-align: "center";
+}
+th {
+  /* height: 50px; */
+  align-items: center;
+  background-color: #344466;
+  color: white;
+  /* min-width: 20px; */
+  font-size: 16px;
+  text-align: center;
+  text-align: "center";
+}
+thead {
+  height: 40px;
+  align-items: center;
+  background-color: #344466;
+  color: white;
+  text-align: "center";
+}
+td {
+  height: auto;
+  align-items: center;
+  color: black;
+  /* border: 2px solid #b9b2b24d; */
+  /* min-width: 60px; */
+  font-size: 20px;
+  text-align: "center";
+  border-left: 1px solid #344466;
+}
+.download-bar-btn:focus {
+  background-color: #344466;
+  color: white;
+}
+
+.download-bar-btn {
+  font-size: 1em;
+  background-color: white;
+}
+/* .tablerowinput:active,.tablerowinput:focus {
+      border: 1px solid grey;
+      margin-top: 10px;
+  } */
+td:last-child {
+  border-right: 1px solid #344466;
+}
+
+tr:last-child {
+  border-bottom: 1px solid #344466;
+}
+
+.add-row td input {
+  width: 100%;
+  background-color: #5fcc6a;
+  border: none;
+  padding: 2px;
+}
+
+.add-row td input[type="checkbox"] {
+  background-color: #5fcc6a;
+}
+
+td input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 10px;
+  box-shadow: 1px 3px 6px rgba(75, 71, 71, 0.3);
+}
+
+.table-row-checkbox {
+  float: right;
+}
+
+tr td input.checked,
+td.checked {
+  background-color: #f69999;
+}
+.fa-plus:before,
+.fa-trash:before,
+.fa-save:before,
+.fa-pencil:before,
+.fa-download:before {
+  color: white;
+}
+
+.fa-align-left:before {
+  content: "\f036";
+}

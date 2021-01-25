@@ -1,0 +1,19 @@
+.manpowertablebtn {
+    width: 100%;
+    background-color: '#987c46';
+}
+
+
+/* .ProjectManpowerScheduleTable{
+
+} */
+
+.manpowergco__scrolltable  {
+    width: 100%;
+    text-align:center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* min-height: 400px; */
+    height: auto;
+
+}

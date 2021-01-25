@@ -1,0 +1,31 @@
+.footer{
+    margin-top: 10px;
+    border-top: 1px solid rgba(233, 230, 230, 0.8);
+  /* border-top: 1px solid black; */
+}
+.footer_icon_img img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer_icon_img img:hover{
+    color:#987c46;
+    outline:1px solid #987c46;
+    outline-offset: 5px;
+}
+
+.footer  a {
+    font-family: Gibson;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 17px;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #78849e;
+  }
+
+  .footer a:hover{
+    color:#987c46;
+  }

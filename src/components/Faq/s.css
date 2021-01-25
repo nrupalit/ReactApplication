@@ -1,0 +1,129 @@
+/***********************************************/
+/***************** Accordion ********************/
+/***********************************************/
+@import url("https://fonts.googleapis.com/css?family=Tajawal");
+@import url("https://fonts.apis.com/css?family=Tajawal");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+section {
+  padding: 60px 0;
+}
+
+#root > div > div.col-12 > h1 {
+  color: #344466;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 3%;
+}
+#accordion-style-1 > div > section > div > div {
+  margin-left: -15px !important;
+  margin-right: 0px !important;
+  flex: none;
+  max-width: 95%;
+  padding-left: 0px;
+}
+
+#accordion-style-1 h1,
+#accordion-style-1 a {
+  color: #344466;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#accordion-style-1 .btn-link {
+  font-weight: 400;
+  color: white;
+  background-color: #344466;
+  text-decoration: none !important;
+  font-size: 14px;
+  padding-left: 25px;
+}
+
+#accordion-style-1 .card-header .btn.collapsed .fa.main {
+  background-color: #344466;
+  float: right;
+  padding-right: 60px;
+}
+
+#accordion-style-1 .card-header .btn .fa.main {
+  background: #344466;
+
+  padding-top: 13px;
+  color: #ffffff;
+  width: 35px;
+  height: 41px;
+  position: absolute;
+  right: 1px;
+  top: 10px;
+  display: block;
+  float: right;
+  padding-right: 60px;
+}
+
+.card-body {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #78849e;
+  padding:25px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#myTab {
+  float: left;
+  display: block;
+  margin-right: 20px;
+  border-bottom: 0;
+  border-right: 1px solid #ddd;
+  padding-right: 15px;
+  padding-right: 0px;
+  border-right-width: 0px;
+  margin-right: 030px;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+}
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  background: #344466;
+  color: #ffffff !important;
+  height: 60px;
+  margin-bottom: 2px;
+  font-family: Helvetica;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.nav-tabs .nav-link.active {
+  color: #ffffff !important;
+  background-color: #987c46 !important;
+  border-color: transparent !important;
+}
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;
+}
+.tab-content > .active {
+  display: block;
+  background: white;
+  min-height: 365px;
+}
+.nav.nav-tabs {
+  float: left;
+  display: block;
+  margin-right: 20px;
+  border-bottom: 0;
+  border-right: 1px solid transparent;
+  padding-right: 15px;
+}
+.nav-tabs .nav-item {
+  margin-bottom: 1px;
+  width: 170px;
+  text-align: center;
+  font-size: small;
+}

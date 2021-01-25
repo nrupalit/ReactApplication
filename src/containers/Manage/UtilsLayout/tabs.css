@@ -1,0 +1,41 @@
+/*------------------------------------Tabs CSS starts-----------------------------------------------*/
+ul > li > a {
+  color: lightgrey;
+  font-size: 15px;
+  font-weight: 600;
+}
+ul > li > a:hover {
+  color: #344466;
+}
+
+#schedule,
+#manpower,
+#material,
+#jobwork,
+#tools {
+  border: none;
+}
+:target {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 30px;
+  color: #344466;
+  border-bottom: 5px solid #987c46;
+  left: 50px;
+  width: 120px;
+  padding-top: 0px;
+}
+.active {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 30px;
+  color: #344466;
+  border-bottom: 5px solid #987c46;
+  left: 50px;
+  width: 120px;
+  padding-top: 0px;
+}
+
+/*------------------------------------Tabs CSS ends-----------------------------------------------*/

@@ -1,0 +1,31 @@
+.B2B--ServerError {
+  position: fixed;
+  z-index: 500;
+  background-color: transparent;
+  width: 50%;
+  border: none;
+  padding: 16px;
+  transition: all 0.5s ease-out;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-header h1,
+span {
+  color: #454f63;
+}
+.modal-footer {
+  border-top: none;
+}
+
+.modal-content {
+  border-radius: 22px;
+  width: 50%;
+}
+@media (min-width: 600px) {
+  .B2B--ServerError {
+    width: 600px;
+    left: 35%;
+    top: 25%;
+  }
+}

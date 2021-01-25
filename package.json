@@ -1,0 +1,59 @@
+{
+  "name": "d2b",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "array-move": "^2.1.0",
+    "aws-sdk": "^2.460.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "collapsible": "^1.0.1",
+    "downshift": "^3.2.10",
+    "express": "^4.17.0",
+    "formik": "^1.5.7",
+    "html2canvas": "^1.0.0-rc.3",
+    "import": "0.0.6",
+    "jspdf": "^1.5.3",
+    "lodash": "^4.17.11",
+    "mdbreact": "^4.15.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "pdfmake": "^0.1.56",
+    "react": "^16.8.6",
+    "react-collapsible": "^2.6.0",
+    "react-csv": "^1.1.1",
+    "react-data-grid": "^5.0.5",
+    "react-datepicker": "^2.7.0",
+    "react-dom": "^16.8.6",
+    "react-dragula": "^1.1.17",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-sortable-hoc": "^1.9.1",
+    "react-sortablejs": "^1.5.1",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.2.0",
+    "yup": "^0.26.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "production": "node server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

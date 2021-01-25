@@ -1,0 +1,203 @@
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  /* .row-responsive {
+    width: 50% !important;
+  }
+  .man-row-responsive {
+    width: 25% !important;
+  }
+  .schedule-days-responsive {
+    width: 27% !important;
+  }
+  .schedule-start-responsive {
+    width: 22% !important;
+  }
+  .schedule-end-responsive {
+    width: 22% !important;
+  }
+  .col-responsive {
+    left: 14% !important;
+  }
+  .man-col-responsive {
+    left: 10% !important;
+  } */
+  .head-task-responsive {
+    width: 36.5% !important;
+  }
+  .head-schedule-responsive {
+    width: 22% !important;
+  }
+
+  .col-responsive {
+    max-width: 58% !important;
+  }
+  .row-responsive {
+    width: 42% !important;
+  }
+  .schedule-box-responsive {
+    left: 50% !important;
+    width: 58% !important;
+  }
+  .schedule-box-1-responsive {
+    width: 32% !important;
+  }
+  .man-estimate-responsive {
+    width: 150% !important;
+  }
+  .srhead-responsive {
+    width: 11.4% !important;
+  }
+  .process-responsive {
+    width: 88.5% !important;
+  }
+  .title-label-responsive {
+    width: 11.4% !important;
+  }
+  .srhead-responsive .sr {
+    border-right: 1px solid white;
+  }
+  .schedule-execute-responsive {
+    width: 180% !important;
+  }
+  .head-headdiv-responsive {
+    width: 29.9% !important;
+  }
+  .myprogress-bar {
+    width: 20% !important;
+  }
+  .man-srhead-responsive {
+    width: 4.4% !important;
+  }
+  /* .title-label-responsive {
+    width: 4.4% !important;
+  } */
+  .persons-responsive,
+  .mandays-responsive,
+  .cost-responsive {
+    width: auto !important;
+  }
+  .input-last-responsive {
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 800px) {
+  .input-responsive {
+    width: 9.5% !important;
+    margin-left: 0px !important;
+  }
+  .input-days-responsive {
+    width: 16% !important;
+    margin-right: 4% !important;
+  }
+  .man-input-responsive {
+    width: 11% !important;
+    margin-right: 2% !important;
+  }
+  .man-input-days-responsive {
+    width: 90% !important;
+  }
+  .execute-task-responsive {
+    width: 10.5% !important;
+    max-width: 10.5% !important;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 850px) {
+  .input-responsive {
+    width: 10.5% !important;
+    margin-left: -4px !important;
+  }
+
+  .input-days-responsive {
+    width: 20% !important;
+    margin-right: 4% !important;
+  }
+  .man-input-responsive {
+    width: 12% !important;
+    margin-right: 2% !important;
+  }
+  .man-input-days-responsive {
+    width: 90% !important;
+  }
+  .execute-task-responsive {
+    width: 12% !important;
+    max-width: 12% !important;
+  }
+}
+
+@media screen and (min-width: 851px) and (max-width: 900px) {
+  .input-responsive {
+    width: 12.5% !important;
+    margin-left: -4px !important;
+  }
+
+  .input-days-responsive {
+    width: 29% !important;
+    margin-right: 4% !important;
+  }
+  .man-input-responsive {
+    width: 14% !important;
+    margin-right: 2% !important;
+  }
+  .man-input-days-responsive {
+    width: auto !important;
+  }
+  .execute-task-responsive {
+    width: 13.5% !important;
+    max-width: 13.5% !important;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 950px) {
+  .input-responsive {
+    width: 14.5% !important;
+    margin-left: -4px !important;
+  }
+
+  .input-days-responsive {
+    width: 33% !important;
+    margin-right: 9% !important;
+  }
+  .man-input-responsive {
+    width: 16% !important;
+    margin-right: 4% !important;
+  }
+  .man-input-days-responsive {
+    width: auto !important;
+  }
+  .execute-task-responsive {
+    width: 14.5% !important;
+    max-width: 14.5% !important;
+  }
+}
+
+@media screen and (min-width: 951px) and (max-width: 992px) {
+  .input-responsive {
+    width: 15.5% !important;
+    /*margin-left: -4px !important;*/
+  }
+  .input-days-responsive {
+    width: 23% !important;
+    margin-right: 11% !important;
+  }
+  .man-input-responsive {
+    width: 18.5% !important;
+  }
+  .man-input-days-responsive {
+    width: auto !important;
+  }
+  .execute-task-responsive {
+    width: 16% !important;
+    max-width: 16% !important;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1100px) {
+  .man-input-responsive {
+    width: 19.5% !important;
+    margin-right: 4% !important;
+  }
+  .man-input-days-responsive {
+    width: auto !important;
+  }
+}

@@ -1,0 +1,87 @@
+.manpowergco__scrolltable  {
+    width: 100%;
+    text-align:center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* min-height: 400px; */
+    height: auto;
+
+}
+table{
+    width: 100%;
+    text-align:center;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+table input:disabled{
+    background-color: white;
+    text-align:center;
+    border:none
+}
+th{
+    height: 50px;
+    align-items: center;
+    background-color: #344466;
+    color:white;
+    /* min-width: 20px; */
+    font-size:16px;
+    text-align: center;
+    /* text-align:'center */
+}
+thead{
+    height: 40px;
+    align-items: center;
+    background-color: #344466;
+    color:white;
+    text-align:'center'
+
+}
+td{
+    height: auto;
+    align-items: center;
+    color:black;
+    /* border: 2px solid #b9b2b24d; */
+    min-width: 60px;
+    font-size:20px;
+    text-align:'center';
+}
+/* .tablerowinput:active,.tablerowinput:focus {
+    border: 1px solid grey;
+    margin-top: 10px;
+} */
+
+.lowerHeader
+{
+    border:1px solid white;
+    margin-right: 3px
+
+}
+
+.lowerHeader th
+{
+    border:3px solid white;
+    /* margin-right: 3px */
+
+}
+
+.upperHeader th{
+    border-left:4px solid white;
+    /* margin-right: 3px */
+}
+
+/* .lowerHeader th:nth-child(n)
+{
+    border-left:10px solid white;
+    margin-right: 3px
+
+} */
+
+.table__heading{
+    background-color: grey;
+    height: 30px;
+    /* margin-bottom: 15px; */
+}
+.table__bottom--padding{
+    margin-bottom: 60px;
+}

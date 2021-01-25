@@ -1,0 +1,74 @@
+.page-container {
+  margin-top: 50px;
+  /* margin-left: 25px; */
+  margin-left: 45px;
+  margin-right: 25px;
+  font-size: 16px;
+}
+
+.tabs-ul {
+  border-color: white;
+  height: 44px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+  margin-bottom: 25px;
+  /* margin-left: 10px; */
+}
+
+.tabs-ul .nav-item {
+  width: 200px;
+  font-family: "Helvetica";
+}
+
+.tabs-ul .nav-item .nav-link {
+  height: 44px;
+  font-size: 19px;
+  /* padding-top: 8px !important; */
+}
+
+.tab-content .tab-pane {
+  /* width: 100%; */
+  /* margin-left: 10px; */
+}
+
+
+
+
+.thead1 {
+  height: 50px;
+  background-color: rgb(152, 124, 70);
+}
+
+.colNames {
+  background-color: #344466;
+  color: #fff;
+}
+
+.spacer {
+  display: block;
+  padding-bottom: 50px;
+}
+
+.process-row {
+  background-color: #78849e;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.subtask-row {
+  padding-left: 50px !important;
+}
+
+.mybutton {
+  border-radius: 100px;
+  border-color: whitesmoke;
+}
+
+.submit-btn {
+  /* background-color: ; */
+  color: rgb(152, 124, 70);
+  border: 1px solid rgb(152, 124, 70);
+}
+.submit-btn span {
+  color: rgb(152, 124, 70);
+  justify-content: end;
+}

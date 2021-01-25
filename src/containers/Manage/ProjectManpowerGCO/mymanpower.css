@@ -1,0 +1,247 @@
+.fieldmode-wrapper {
+  padding-top: 55px;
+}
+
+.fieldmode__addmember-btn {
+  margin-left: 11%;
+  margin-bottom: 20px;
+  /* width: 165px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: #344466;
+  color: white;
+  color: white;
+  font-family: Gibson;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  pointer-events:none; */
+}
+
+/* .fieldmode__addmember-btn:hover {
+  background-color: #987c46;
+} */
+
+.fieldmode__addMember--btn {
+  height: 20px;
+  width: 30px;
+  margin-bottom: 1px;
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+.fieldmode__plus-btn {
+  margin-left: 20px;
+  width: 49px;
+  height: 50px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 12px 16px 0 rgba(69, 91, 99, 0.1);
+  background-color: #344466;
+  color: white;
+  font-family: Gibson;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+.fieldmode__plus-btn:hover {
+  background-color: #987c46;
+}
+
+.fieldmode-main__logo--text b {
+  margin-left: 10px;
+  font-family: Gibson;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #78849e;
+}
+
+.fieldmode-main-save-btn,
+.fieldmode-main-edit-btn,
+.fieldmode-main-delete-btn,
+.fieldmode-main-addmember-btn {
+  border-radius: 12px;
+  border: 1.5px solid #4d5c7c;
+  width: 100%;
+  background-color: white;
+  border-color: #78849e;
+  color: #78849e;
+  font-family: Gibson;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #78849e;
+}
+.fieldmode-main-save-btn:hover,
+.fieldmode-main-delete-btn:hover,
+.fieldmode-main-edit-btn:hover,
+.fieldmode-main-addmember-btn:hover {
+  border-radius: 12px;
+  background-color: #4d5c7c;
+  border: 1px solid #4d5c7c;
+  width: 100%;
+  color: white;
+  font-family: Gibson;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.field-form-wrapper {
+  margin-left: 10%;
+}
+.field-form-wrapper input {
+  height: 20px;
+  margin-bottom: 15px;
+}
+.field-form-icon-underline {
+  width: 40px;
+  height: 4px;
+  background-color: #272727;
+  border-radius: 5px;
+  margin-right: 90%;
+}
+
+.field-form-wrapper input[type="text"],
+.field-form-wrapper input[type="email"],
+.field-form-wrapper input[type="password"],
+.field-form-wrapper input[type="number"],
+.field-form-wrapper input[type="file"],
+.field-form-wrapper select,
+.field-form-wrapper option,
+textarea {
+  box-shadow: 0 2px 22px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  height: 36px;
+  color: #4d5c7c;
+}
+
+.fieldmode-footer {
+  margin-top: 5%;
+}
+
+.button__icons {
+  margin-left: 10px;
+
+  justify-content: end;
+
+  margin-bottom: 5px;
+}
+
+.button__icons--edit {
+  margin-left: 14px;
+
+  justify-content: end;
+
+  margin-bottom: 5px;
+}
+
+.button__icons--delete {
+  margin-left: 6px;
+
+  justify-content: end;
+
+  margin-bottom: 5px;
+}
+
+.button__icons--save {
+  margin-left: 14px;
+
+  justify-content: end;
+
+  margin-bottom: 5px;
+}
+.button__icons--addmember {
+  margin-left: -6px;
+
+  justify-content: end;
+
+  margin-bottom: 5px;
+}
+.fieldmode-main-addmember-btn {
+}
+
+@media (min-width: 1850px) {
+  .field-form-wrapper {
+    margin-left: 20%;
+    margin-right: 10%;
+  }
+}
+
+.fieldform-form {
+  width: 50%;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  left: 30%;
+  top: 50px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.fieldform-form label {
+  font-family: Gibson;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #78849e;
+}
+
+.fieldform-form input {
+  margin-bottom: 10px;
+}
+
+.link {
+  font-size: 15px;
+  color: #78849e;
+}
+
+.link:hover {
+  color: #987c46;
+}
+
+.disabled__link {
+  font-size: 15px;
+  color: #d64f6c;
+  pointer-events: none;
+}
+
+.link:hover {
+  color: #987c46;
+}
+
+@media (min-width: 1850px) {
+  .fieldmode__addmember-btn {
+    margin-left: 21%;
+  }
+}
+.fieldmode_link {
+  text-decoration: underline;
+}

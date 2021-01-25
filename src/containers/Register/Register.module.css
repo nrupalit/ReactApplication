@@ -1,0 +1,193 @@
+.register_btn{
+    /* background-color:#344466 ; */
+    /* color:white; */
+    margin-top:15px;
+    /* width: 165px;
+    border-radius: 12px;
+    font-family: Gibson;
+    font-size: 19px; */
+    /* font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.26;
+    letter-spacing: normal; */
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+    outline: none !important;
+    box-shadow: none !important;
+    margin-left:25%;
+}
+
+.register_btn:hover{
+    background-color:#987c46;
+}
+.register-form-div{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20%;
+}
+.register-form-col-div{
+    margin-top: 0px;
+    margin-bottom:10px;
+}
+
+.register-wrapper{
+    margin-top: 50px;
+   
+}
+.register-account-wrapper{
+    margin-top: 10%;
+    /* margin-left: 10%;
+    margin-right: 10%;
+    height: 80vh; */
+}
+.account-card{
+  /* border:1px solid grey;  
+  margin-right: 10px
+  border-radius: 20px */
+}
+.account_img{
+    margin-left: 32%
+}
+
+.account_button{
+    background-color:#cca557 ;
+    color:white;
+    height: 50px;
+    margin-top:15px;
+    width: 100px;
+    border-radius: 5px;
+    font-family: Gibson;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 40%;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.register-wrapper input[type="text"],
+.register-wrapper input[type="email"],
+.register-wrapper input[type="password"],
+.register-wrapper input[type="file"],
+.register-wrapper input[type="number"],
+.register-wrapper input,
+.register-wrapper textarea,
+.register-wrapper textarea:active,
+.register-wrapper textarea:focus
+{
+    font-size: 16px;
+    font-family: Gibson;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+   color:#454f63;
+   border:none;
+   box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.08);
+   height: 35px;
+   appearance: none;
+   -webkit-appearance: none;
+    -moz-appearance: none;
+} 
+.register--underline{
+    width: 67px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #c49f66;
+}
+
+.register-main-edit-btn{border-radius: 10px;
+    width: 90px;
+    margin-top:30px;
+    margin: 15px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: white;
+    border-color: #78849e;
+    color:#78849e;
+    font-family: Gibson;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #78849e;
+}
+
+/* .register-form-div  input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="file"],textarea{
+        font-size: 16px;
+        font-family: Gibson;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: left;
+       color: #383839;
+       border:none;
+       box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.16); */
+       /* box-shadow: 8px 4px 6px 4px rgba(69, 91, 99, 0.08);
+        */
+       /* 4px 6px 6px 4px rgba(69, 91, 99, 0.08); */
+       /* height: 35px;
+    appearance: none;
+    margin-bottom: 10px;
+    } */
+
+    .register-wrapper h3{
+    font-family: Gibson;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.59;
+    letter-spacing: normal;
+    text-align: left;
+    color: #66676b;
+  
+}
+
+.register-wrapper h1{
+    font-family: Gibson;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #454f63;
+}
+
+.register-wrapper label{
+    font-family: Gibson;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #78849e;
+  } 
+.button__icons{
+    margin-left: 8px;
+
+    justify-content: end;
+    
+    margin-bottom: 5px;
+}

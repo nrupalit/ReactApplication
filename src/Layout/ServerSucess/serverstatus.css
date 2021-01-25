@@ -1,0 +1,70 @@
+.B2B--ServerError {
+  position: fixed;
+  z-index: 500;
+  background-color: transparent;
+  width: 70%;
+  border: none;
+  padding: 16px;
+  transition: all 0.5s ease-out;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+.modal-footer {
+  border-top: none;
+}
+.modal-content {
+  border-radius: 22px;
+  width: 65%;
+}
+
+.modal-header h2,
+span {
+  color: #78849e;
+}
+
+.ProjectModal--Wrapper {
+  position: fixed;
+  z-index: 500;
+  background-color: transparent;
+  width: 70%;
+  border: none;
+  padding: 16px;
+  transition: all 0.5s ease-out;
+}
+@media (min-width: 600px) {
+  .B2B--ServerError {
+    width: 600px;
+    left: 35%;
+    top: 25%;
+  }
+
+  .ProjectModal--Wrapper {
+    position: fixed;
+    z-index: 500;
+    background-color: transparent;
+    width: 70%;
+    border: none;
+    padding: 16px;
+    transition: all 0.5s ease-out;
+    width: 800px;
+    left: 22%;
+    top: 25%;
+  }
+  .projectmodal-dialog {
+    min-width: 850px !important;
+  }
+}
+
+.myprojectmodal-content {
+  border-radius: 22px;
+  width: 85%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}

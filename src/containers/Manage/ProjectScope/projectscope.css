@@ -1,0 +1,96 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.dropdownbtn {
+  background-color: #ffffff;
+  color: gray;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 12px 213px 13px 25px;
+  font-size: 15px;
+  border-color: white;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.dropdownbtn:hover {
+  background-color: #344466;
+  color: white;
+}
+.dropdownbtn:focus {
+  outline: none;
+}
+.dropdown:after {
+  content: "\F078";
+  font: normal normal normal 12px/1 FontAwesome;
+  color: gray;
+  right: 11px;
+  height: 25px;
+  padding: 15px 0px 0px 8px;
+  position: absolute;
+  pointer-events: none;
+}
+.dropdown select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.editSaveNextBtn .fa.fa-floppy-o:before {
+  content: none;
+}
+.editSaveNextBtn .fa.fa-floppy-o:after {
+  content: "\f0c7";
+  font-size: 15px;
+  margin-left: 15px;
+}
+.editSaveNextBtn .fa.fa-chevron-right:before {
+  content: none;
+}
+.editSaveNextBtn .fa.fa-chevron-right:after {
+  content: "\f054";
+  font-size: 12px;
+  margin-left: 18px;
+}
+
+.fa.fa-floppy-o:focus {
+  outline: none;
+}
+.fa.fa-chevron-right:focus {
+  outline: none;
+}
+
+.editSaveNextBtn button{
+
+  /* padding: 6px 16px; */
+  margin-right: 10px;
+  /* font-family: Gibson; */
+
+}
+
+.editSaveNextBtn button:hover{
+
+  /* padding: 6px 16px; */
+  margin-right: 10px;
+}
+
+.projectscope__wrapper{
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+@media (min-width:1850px){
+  .projectscope__wrapper{
+      margin-left: 30%;
+      /* margin-right: 10% */
+
+  }
+}
+
+
+.projectscope__wrapper select:disabled  , .projectscope__wrapper select:disabled:hover {
+  background-color: rgb(236, 234, 234);
+  color: gray;
+}

@@ -1,0 +1,10 @@
+.projectbrief__main{
+   color:#344466;
+}
+.projectbrief__projectcontent{
+    padding: 30px;
+    box-shadow: 3px 3px 3px 3px rgba(160, 158, 158, 0.034);
+}
+.projectbrief__footer{
+    margin: 4%;
+}

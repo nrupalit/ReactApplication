@@ -1,0 +1,157 @@
+.login-wrapper {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30%;
+}
+
+.login-wrapper a {
+  color: #78849e;
+}
+.login-wrapper a:hover {
+  color: #987c46;
+}
+.login-main-div {
+  margin: 0px;
+  padding: 0px;
+  align-items: baseline;
+}
+.login-main-div {
+  margin: 0px;
+  padding: 0px;
+  align-items: baseline;
+}
+
+.login-company-logo {
+  margin-left: 45%;
+}
+.login_content {
+  margin-left: 40%;
+}
+.login_msg {
+  font-family: Gibson;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #787993;
+  width: 100%;
+}
+.login_heading {
+  font-family: Gibson;
+  font-size: 27px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.07;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #25265e;
+  margin-top: 4%;
+  margin-left: 30%
+}
+.login_button {
+  
+}
+
+.login_remember_me {
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.16;
+  letter-spacing: normal;
+  text-align: left;
+  color: #78849e;
+}
+
+.login-wrapper input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.login_forgetpassword a {
+  height: 43px;
+  margin-left: 50px;
+}
+.login-wrapper img {
+}
+
+.line-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px;
+}
+
+.login-footer {
+  margin-top: 8%;
+}
+
+.login-main-logo {
+  margin-left: 30%;
+  height: 30px;
+}
+.login-main-link {
+  font-size: 2rem;
+  color: #987c46;
+}
+
+.login--input::placeholder {
+  font-family: Gibson;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: 0.8px;
+  text-align: left;
+}
+
+.login-wrapper input[type="text"],
+.login-wrapper input[type="email"],
+.login-wrapper input[type="password"] {
+  font-size: 16px;
+  font-family: Gibson;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #454f63;
+  letter-spacing: 0.8px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.08);
+  height: 35px;
+  border: none !important;
+  appearance: none;
+  outline: none !important;
+}
+
+.login-wrapper input[type="text"]:active,
+.login-wrapper input[type="email"]:active,
+.login-wrapper input[type="password"]:active,
+.login-wrapper:foucs {
+  border: white;
+  appearance: none;
+  outline: none !important;
+  color: #454f63;
+  box-shadow: 0 2px 22px 0 rgba(0, 0, 0, 0.12);
+}
+
+.login-wrapper label {
+  font-family: Gibson;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #78849e;
+}

@@ -1,0 +1,55 @@
+.form-control .shadow{
+    width: 20px !important
+  }
+  .red-border{
+    text-align: "center";
+    border: "1px solid #e9e9e9 ";
+    
+    color: "#78849e !important";
+    height: "30px";
+    background-color: "white";
+    border-radius: "1px";
+    margin-left: "6px";
+    font-size: "15px";
+    line-height: "21px";
+    margin-top: "0px";
+    padding: "inherit";
+      width:86px;
+   border: none;
+    height:30px
+  }
+  .red-border-edit{
+    text-align: "center";
+    border: "1px solid #e9e9e9 ";
+    
+    color: "#78849e !important";
+    height: "30px";
+    background-color: "white";
+    border-radius: "1px";
+    margin-left: "6px";
+    font-size: "15px";
+    line-height: "21px";
+    margin-top: "0px";
+    padding: "inherit";
+      width:86px;
+    border: 1px solid #e9e9e9;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 10px;
+    height:30px
+  }
+  #datpicker{
+    color: "#78849e" !important
+  }
+  [type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  100% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  ::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+    color: transparent;
+}

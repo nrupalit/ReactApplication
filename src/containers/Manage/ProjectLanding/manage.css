@@ -1,0 +1,59 @@
+.fieldmode__addMember--btn {
+  height: 20px;
+  width: 30px;
+  margin-bottom: 1px;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+.landing__managebtn {
+  margin-left: 14%;
+}
+
+.manage__header {
+  display: inline;
+  padding-left: 39%;
+  font-size: 25px;
+  font-weight: 600;
+  color: #78849e;
+  letter-spacing:2.2px;
+}
+
+.serviceItemTitle{
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 10;
+  color: #78849e;
+  margin-bottom: 5;
+  letter-spacing:1.7px;
+}
+
+.serviceItemTitle:hover{
+  color: #987c46;
+}
+
+@media (min-width: 1850px) {
+  .manage-wrapper {
+    margin-left: 15%;
+    margin-right: 10%;
+  }
+  .manage-main {
+    margin-top: 60px;
+  }
+
+  .manage__header {
+    display: inline;
+    padding-left: 39%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #78849e;
+    letter-spacing:2.2px;
+  }
+}
+
+@media (min-width:1850px){
+  
+.landing__managebtn {
+
+  margin-left: 25%;}
+
+}

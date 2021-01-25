@@ -1,0 +1,155 @@
+/* .home_heading{
+    font-family: Gibson;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4b4b4b;
+}
+.home_paragraph
+{
+    font-family: Gibson;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4b4b4b;
+}
+
+.home_button_coffee-color
+{
+    color: #987c46;
+    width: 159px;
+    height: 48px;
+}
+
+.home_button_greyblue-color
+{
+    color: #344466;
+    width: 159px;
+    height: 48px;
+}
+
+.footer_icon_img{
+    margin-left: 15px;
+}
+
+
+.home_main button{
+    color: #344466;
+    width: 159px;
+    height: 48px;
+} */
+
+/* .home_button_coffee_color
+{
+ 
+    
+} */
+
+
+
+
+/* .home_button_greyblue_color
+{
+    background-color: #344466;
+    color:white;
+    width: 159px;
+    height: 48px;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+
+} */
+.footer_icon_img img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home_main_card{
+    padding-left:  3%;
+    padding-right:  3%
+    /* margin-left: 3%;
+    margin-right: 3%; */
+}
+.home_main{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.home_main a {
+    font-family: Gibson;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 20px;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #78849e;
+  }
+
+
+.home_main_card h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color:#4b4b4b;
+}
+.home_main_card p{
+    font-family: Gibson;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color:#4b4b4b;
+}
+.home_main_underline{
+    margin: 0px;
+    padding: 0px;
+}
+
+.home_main_img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home_main div{
+    /* margin-top: 10px; */
+   padding: 20px;
+}
+.home__footer{
+    margin-top: 35px;
+}
+
+.home__block{
+    margin-bottom: 100px;
+}
+
+.home__main--underline{
+    /* height: 1px; */
+    opacity: 0.72;
+    color:#987c46;
+    width: 28%;
+    margin-left:-15px;
+    margin-top:-8px;
+    border:1px solid #987d4694
+}

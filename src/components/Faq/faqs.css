@@ -1,0 +1,370 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@font-face {
+  font-family: Gibson;
+  src: url(./../../assets/fonts/Gibson-Regular.ttf);
+}
+/* 534 */
+body {
+  font-family: Gibson;
+}
+.container section {
+  padding: 0px 0;
+}
+
+#root > div > div.col-12 > h1 {
+  color: #344466;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 3%;
+}
+#accordion-style-1 > div > section > div > div {
+  margin-left: -15px !important;
+  margin-right: 0px !important;
+  flex: none;
+  max-width: 95%;
+  padding-left: 0px;
+}
+#active_link {
+  height: 60px;
+  padding-top: 0px;
+}
+#accordion-style-1 h1,
+#accordion-style-1 a {
+  color: #344466;
+  font-size: 25px;
+  font-weight: 500;
+}
+#accordion-style-1 .btn-link {
+  font-weight: 400;
+  color: white;
+  background-color: #344466;
+  text-decoration: none !important;
+  font-size: 14px;
+  padding-left: 25px;
+}
+
+#accordion-style-1 .card-header .btn.collapsed .fa.main {
+  background-color: #344466;
+  float: right;
+  padding-right: 60px;
+}
+
+#accordion-style-1 .card-header .btn .fa.main {
+  background: #344466;
+
+  padding-top: 13px;
+  color: #ffffff;
+  width: 35px;
+  height: 41px;
+  position: absolute;
+  right: 1px;
+  top: 10px;
+  display: block;
+  float: right;
+  padding-right: 60px;
+  height: 20px;
+}
+
+.card-body {
+  font-size: 14px;
+  color: gray;
+  font-family: Gibson;
+  padding: 1.5rem;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#myTab {
+  float: left;
+  display: block;
+  margin-right: 20px;
+  border-bottom: 0;
+  border-right: 1px solid #ddd;
+  padding-right: 15px;
+  padding-right: 0px;
+  border-right-width: 0px;
+  margin-right: 030px;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.3);
+}
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  background: #344466;
+  color: #ffffff !important;
+  height: 60px;
+  margin-bottom: 2px;
+  font-family: Gibson;
+  padding-top: 12px;
+}
+.nav-tabs .nav-link.active {
+  color: #ffffff !important;
+  background-color: #987c46 !important;
+  border-color: transparent !important;
+}
+.nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: 0rem !important;
+  border-top-right-radius: 0rem !important;
+}
+.tab-content > .active {
+  display: block;
+  background: white;
+  min-height: 365px;
+}
+.nav.nav-tabs {
+  float: left;
+  display: block;
+  margin-right: 20px;
+  border-bottom: 0;
+  border-right: 1px solid transparent;
+  padding-right: 15px;
+}
+.nav-tabs .nav-item {
+  margin-bottom: 1px;
+  width: 170px;
+  text-align: center;
+  font-size: small;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*  -------------------    SUPPORT.JSX STYLING   ---------------------   */
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  align-content: flex-start;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropdownbtn {
+  /* background-color: #987c46; */
+  color: white;
+}
+.dropdownbtn:focus {
+  outline: none;
+}
+.attachmentname:focus {
+  outline: none;
+}
+
+.dropdown:after {
+  content: "\F078";
+  font: normal normal normal 12px/1 FontAwesome;
+  color: gray;
+  right: 11px;
+  height: 25px;
+  padding: 15px 0px 0px 8px;
+  position: absolute;
+  pointer-events: none;
+}
+.dropdown select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/*-------------Manage.jsx css-----------------*/
+.fas:focus {
+  outline: none;
+}
+.addButton:focus {
+  outline: none;
+}
+
+.service-item-icon i {
+  float: left;
+  color: #987c46;
+  padding: 2px;
+  margin-right: 25px;
+  width: 35px;
+  height: 30px;
+  text-align: center;
+  margin-left: 0px;
+  font-size: x-large;
+}
+
+.service-item:hover .service-item-icon i {
+  /* color: #fff; */
+  color: #987c46;
+}
+
+/*------------------------------------project-scope CSS starts-----------------------------------------------*/
+
+/* project type starts */
+.projectType1 p.fa.fa-check:before {
+  content: none;
+}
+.projectType1 p.fa.fa-check:after {
+  content: "\F00C";
+  margin-left: 440px;
+  font-size: 15px;
+  display: none;
+}
+
+.projectType2 p.fa.fa-check:before {
+  content: none;
+}
+.projectType2 p.fa.fa-check:after {
+  content: "\F00C";
+  margin-left: 435px;
+  font-size: 15px;
+}
+/* project type ends */
+
+/* project sub-type starts */
+.projectSubType1 p.fa.fa-check:before {
+  content: none;
+}
+.projectSubType1 p.fa.fa-check:after {
+  content: "\F00C";
+  margin-left: 440px;
+  font-size: 15px;
+}
+
+.projectSubType2 p.fa.fa-check:before {
+  content: none;
+}
+.projectSubType2 p.fa.fa-check:after {
+  content: "\F00C";
+  margin-left: 430px;
+  font-size: 15px;
+}
+/* project sub-type ends */
+
+/*project type type starts*/
+.projectTypeType1 p.fa.fa-check:before {
+  content: none;
+}
+.projectTypeType1 p.fa.fa-check:after {
+  content: "\F00C";
+  margin-left: 450px;
+  font-size: 15px;
+  display: none;
+}
+
+.projectTypeType2 p.fa.fa-check:before {
+  content: none;
+}
+.projectTypeType2 p.fa.fa-check:after {
+  content: "\F00C";
+  margin-left: 425px;
+  font-size: 15px;
+}
+/* project type type ends */
+
+/*project sub-type type starts*/
+.projectSubTypeType p.fa.fa-check:before {
+  content: none;
+}
+.projectSubTypeType p.fa.fa-check:after {
+  content: "\F00C";
+  margin-left: 410px;
+  font-size: 15px;
+}
+/*project sub-type type ends*/
+
+/*edit save next button starts*/
+.editSaveNextBtn .fa.fa-pencil:before {
+  content: none;
+}
+.editSaveNextBtn .fa.fa-pencil:after {
+  content: "\f040";
+  font-size: 15px;
+  margin-left: 18px;
+}
+.editSaveNextBtn .fa.fa-floppy-o:before {
+  content: none;
+}
+.editSaveNextBtn .fa.fa-floppy-o:after {
+  content: "\f0c7";
+  font-size: 15px;
+  margin-left: 15px;
+}
+.editSaveNextBtn .fa.fa-chevron-right:before {
+  content: none;
+}
+.editSaveNextBtn .fa.fa-chevron-right:after {
+  content: "\f054";
+  font-size: 12px;
+  margin-left: 18px;
+}
+.fa.fa-pencil:focus {
+  outline: none;
+}
+.fa.fa-floppy-o:focus {
+  outline: none;
+}
+.fa.fa-chevron-right:focus {
+  outline: none;
+}
+/*edit save next button ends*/
+/*------------------------------------project-scope CSS ends-----------------------------------------------*/
+.editDeleteSaveBtn .fa.fa-pencil:before {
+  content: none;
+}
+.editDeleteSaveBtn .fa.fa-pencil:after {
+  content: "\f040";
+  font-size: 15px;
+  margin-left: 18px;
+}
+.editDeleteSaveBtn .fa.fa-floppy-o:before {
+  content: none;
+}
+.editDeleteSaveBtn .fa.fa-floppy-o:after {
+  content: "\f0c7";
+  font-size: 15px;
+  margin-left: 15px;
+}
+.editDeleteSaveBtn .fa.fa-trash:before {
+  content: none;
+}
+.editDeleteSaveBtn .fa.fa-trash:after {
+  content: "\f1f8";
+  font-size: 14px;
+  margin-left: 15px;
+}
+.fa.fa-pencil:focus {
+  outline: none;
+}
+.fa.fa-floppy-o:focus {
+  outline: none;
+}
+.fa.fa-trash:focus {
+  outline: none;
+}
+
+.editDeleteSaveBtn .fa.fa-user-plus:before {
+  content: none;
+}
+.editDeleteSaveBtn .fa.fa-user-plus:after {
+  content: "\f234";
+  font-size: 14px;
+  margin-left: 15px;
+}
+.fa.fa-user-plus:focus {
+  outline: none;
+}
+
+/* .fa-chevron-down{
+  height: 20px;
+} */
+/*------------------------------------Manage Member CSS ends-----------------------------------------------*/
+
+.faq_footer {
+  margin-top: 8%;
+}
+
+a.nav-link {
+  height: 60px;
+}
+
+a.nav-link.active.show {
+  padding-top: 12px !important;
+}

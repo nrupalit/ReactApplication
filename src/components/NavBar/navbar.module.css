@@ -1,0 +1,35 @@
+.navbar{
+    align-items: center;
+    border-bottom: 1px solid rgba(233, 230, 230, 0.8);
+}
+
+
+
+
+.navbar  a {
+    font-family: Gibson;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 19px;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #78849e;
+  }
+
+  .navbar a:hover {
+    color:#987c46;
+  }
+
+  .navbar input,input:active,.navbar input:focus{
+    border:none;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+}
+
+.avatar{
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
